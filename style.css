@@ -1,0 +1,56 @@
+/* This is a CSS comment.*/
+body {
+	background-color: #E0D4EC;
+	font-family: "Palatino";
+	padding-left: 100px;
+	padding-right: 100px;
+}
+h1 {
+	text-align: left;
+	color: #8218E5;
+	font-weight: bold;
+	font-size: 250%;
+}
+.lesson {
+	background-color: rgba(240, 240, 167, 0.64);
+	border-radius: 5%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.image {
+	display: -webkit-flex;
+    display: flex;
+	width: 400px;
+	height: 300px;
+	margin-left: 450px;
+	margin-bottom: 50px;
+}
+h2 {
+	text-align: center;
+	color: #5C11A1;
+	font-size: 200%;
+}
+.concept {
+	margin-left: 20px;
+	margin-right: 10px;
+}
+.concept-description {
+	color: #400D81;
+
+}
+.concept-title {
+	color: #7D04ED;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 130%;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.
+*/

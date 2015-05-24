@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <title>
+    Iuliia's Notes
+  </title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1> 
+    Becoming a Programmer
+  </h1>
+  <div class="lesson">
+   <h2> 
+      Lesson 1: The basics of the web
+    </h2>
+    <div class="image"> <img src="web.jpg" alt="Web">
+    </div>
+    <div class="concept">
+      <div class="concept-description">
+         <p>
+          The world wide web is a collection of <em>HTML</em> (Hyper Text Markup Language) files. 
+          HTML is a main type of a content which can be a plain text, images, music, videos etc.
+          Each HTML document is linked to another one, 
+          and they all together compose a web like it is. 
+        </p>
+      </div> 
+    </div>
+    <div class="concept">
+     <div class="concept-title">
+         Major pieces 
+      </div>
+      <div class="concept-description">
+       <p>
+          How it works:
+          a user by means of computer runs a browser (EE/Chrome/Safari etc.),
+          which makes a request to servers through the Internet.
+          Servers are computers that host files that make up the web.
+          The Internet turns to servers using <em> http protocols</em> (the main protocol of the web)
+          and servers respond with files which user's browser displays.
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        HTML
+      </div>
+      <div class="concept-description">
+        <p>
+          <em>HTML</em> documents are the heart of the web. HTML is made up of:
+        </p>
+        <ul style="list-style-type:square">
+          <li> text content <em>(what you see);</em> </li>
+          <li> markup <em>(what it looks like);</em></li>
+          <li> references to other documents <em>(images, videos etc.);</em></li>
+          <li>links to other pages.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Tags
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML markup is made up of tags: <em> 'Opening tag' (in angle brackets) Content '/Closing tag' (in angle brackets). </em>
+          Most of HTML tags come in pairs, but some of them are unpaired and called <em>void</em> (they don't have a content, so they don't need a closing tag, for example,'img' and 'br').
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Elements
+      </div>
+      <div class="concept-description">
+       <p>
+         An <em>HTML element</em> refers to everything within a set of opening and closing tags.
+       </p>
+      </div>  
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Attributes
+      </div>
+      <div class="concept-description">
+        <p>
+          HTML elements can have <em>attributes</em>. Attributes always follow an openning tag. 
+          They look like: <em>attribute name="value"</em>.
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Inline/Block Tags
+      </div>
+      <div class="concept-description">
+        <p>
+          There are <em>inline and block tags</em>.
+          <em>Inline</em> tags just end a line, and <em>block</em> tags make an ivisible box around the content.
+          Block tags have height and width.
+          The other one example of inline/block tags: 'span' is inline and 'div' is block.
+        </p> 
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2>
+      Lesson 2: Creating a structured document
+    </h2>
+    <div class="image"> <img src="html.jpg" alt="html">
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Exploring the web
+      </div>
+      <div class="concept-description">
+       <p>
+          All the elements are rectangular on the web page.
+          <br> <em>HTML</em> controls a structure and a content of a pag, <em>CSS</em> defines styles
+          and <em>Javascript</em> is an interactive component.
+       </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Tree-like structure
+      </div>
+      <div class="concept-description">
+       <p>
+          A branching structure which a browser builds called a "tree-like structure".
+          It comes from the fact that HTML elements can have other elements inside them. This can be a text, or it can be another element.
+          Each element has an opening tag and a closing tag. 
+          <br><em>DOM (Document Oriented Model)</em> is a cross-plarform and language-independent convention
+          for representing and interacting with objects in HTML.
+          <br> The nodes of every document are organized in a tree structure, called the DOM tree.
+          The browser turns HML tags into elements that form a tree.
+       </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Text Editors
+      </div>
+      <div class="concept-description"> 
+        <p>
+        A text editor is a program that helps you type text similar to document editors, 
+        such as Microsoft Word or Corel WordPerfect, but without all the extra formatting functions that document editors have.
+        The most popular text editors are <em>Codepen, Stratchpad and Sublime.</em>
+        Strachpad has immediate feedback and great for beginner, but has only HTML and CSS. Codepen is great for code sharing 
+        (you can just "copy-paste" code from Stratchpad to Codepen and share it), but requires an account. It has the following languages:
+        HTML, CSS, Javascript. Sublime is difficult for beginners, but has a high proffesionalism and a variety of languages.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2>
+      Lesson 3: Structured HTML with CSS styling.
+    </h2>
+    <div class="image"> <img src="css.gif" alt="css">
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Do not repeat yourself
+      </div>
+      <div class="concept-description">
+        <p>
+          Avoiding repetition is very important for a programmer.
+          <b>Do not repeat yourself</b> (DRY) is a principle of software development, aimed at reducing repetition of information of all kinds.
+          When the DRY principle is applied successfully, a modification of any single element of a system does not require a change in other logically unrelated elements.
+          If you do not keep on this principle, then every time you make some changes everywhere the repeated code appears, errors will arise.
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        CSS
+      </div>
+      <div class="concept-description">
+        <p>
+          CSS stands for <em>Cascading Styles Sheets.</em> CSS is a style sheet language used for descibing the look and formatting 
+          of a document written in a markup language. CSS allows you to use a specific syntax and rules how elemens look on the page,
+          the size of the font, the color, background, borders, position etc. 
+          <br> "Cascading" means that rules are applied not only to the elements they directly match, 
+          but also to all of those elements' child elements. However, if a child element has multiple, overlapping rules defined for it, 
+          the more specific rule takes effect.
+          <br>You can also think about CSS as a search and replace tool: you identify a class or a tag of the element you want to find 
+          (or match, in CSS terminology), and then what you want to do with it, or what property values to replace with different ones.
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Order Matters
+      </div>
+      <div class="concept-description">
+        <p>
+          It also matters where you define the rules and in what order they are applied. Styles can be defined in different 
+          places and are applied in the following order, with definitions further down the list overwriting previous definitions:
+        </p>
+        <ol>
+          <li> the default style of a browser (different browsers have slightly different styles);</li>
+          <li> stylesheet in a separate file (this is what you will be mostly using);</li>
+          <li> stylesheet inside HTML (this can be done for small projects but is not ideal);</li>
+          <li> inline style in an element (this can also be done but should be avoided).</li>
+        </ol>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Inheritance
+      </div>
+      <div class="concept-description">
+        <p>
+         This is an important idea that is worth thinking about.<em> Inheritance</em> is a key feature in CSS, 
+          it relies on the ancestor-descendant relationship to operate. Inheritance is the mechanism by which properties are applied 
+          not only to a specified element, but also to its descendants.Descendant elements may inherit CSS property values from 
+          any ancestor element enclosing them. In general, descendant elements inherit text-related properties, but box-related properties 
+          are not inherited.
+          <br> Inheritance prevents certain properties from being declared over and over again in a style sheet, allowing the software 
+          developers to write less CSS.
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Styling up
+      </div>
+      <div class="concept-description">
+        <p>
+          In CSS you first write what's called a "selector". This defines what elements of the page a particular style will apply to.
+          The following links will help you to understand CSS selectors:
+          <a 
+          href=https://developer.mozilla.org/en-US/docs/Web/CSS/Reference> CSS Reference 
+          </a>
+          and <a 
+          href=https://css-tricks.com/how-css-selectors-work/> Beginner Concepts: How CSS Selectors Work
+          </a>.
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Code Comments
+      </div>
+      <div class="concept-description">
+        <p>
+          Comments are lines of text that the computer ignores. 
+          They are just there so that programmers can leave notes for other people (or themselves) to read.
+          In CSS, code comments begin with /* and end with */.
+          In HTML, code comments begin with 
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Browsers
+      </div>
+      <div class="concept-description">
+        <p>
+         Browsers use default stylesheets to determine how to display HTML elements. 
+         You can view the default style rules for different elements for the following browsers:
+        </p>
+        <ul style="list-style-type:square">
+          <li>
+            <a href=http://trac.webkit.org/browser/trunk/Source/WebCore/css/html.css> WebKit (Chrome and Safari)</a>
+          </li>
+          <li>
+            <a href=http://hg.mozilla.org/mozilla-central/file/tip/layout/style/html.css> Firefox</a>
+          </li>
+          <li>
+            <a href=http://www.iecss.com/> Internet Explorer </a>
+          </li>
+        </ul>
+        <p>
+          Because these rules differ sometimes between browsers, there are efforts to promote consistency 
+          in styles across browsers. One popular solution to this issue is using what is referred to as a CSS reset such as
+          <a href=http://necolas.github.io/normalize.css/> normilize.css a
+          </a>
+          Browsers use default stylesheets to determine how to display HTML elements. 
+          You can view default style rules for h1 and other elements here:
+          <a href=http://www.w3.org/TR/CSS21/sample.html> http://www.w3.org/TR/CSS21/sample.html
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Boxes
+      </div>
+      <div class="concept-description">
+        <p>
+          There are four main points about box sizing:
+        </p>
+        <ul style="list-style-type:square">
+          <li>
+            HTML elements are boxes and each box has 4 components (content, padding, border and margin).
+          </li>
+          <li>
+            Because there are so many components to each box, it can often be hard to get the size of a box just right.
+          </li>
+          <li>
+            There are two techniques you can use to help deal with sizing issues. 
+            <ol>
+              <li>
+                Set sizes in terms of percentages rather than pixels
+              </li>
+              <li>
+                Set the box-sizing attribute to border-box for every element.
+              </li>
+            </ol>
+          </li>
+          <li>
+            Different browsers work slightly differently. Sometimes this causes different browsers to display the same code differently.
+          </li>
+        </ul>
+      </div>  
+    </div>  
+    <div class="concept">
+      <div class="concept-title">
+        Box Positioning
+      </div>
+      <div class="concept-description">
+        <ul style="list-style-type:square">
+          <li>
+            Divs are block elements (as opposed to inline), so by default they take up the entire width of a page. 
+          </li>
+          <li>
+            Adding the rule 'display: flex;' to the appropriate CSS will override this behavior and let divs appear next to each other.
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="concept">
+      <div class="concept-title">
+        Code, Test, Refine
+      </div>
+      <div class="concept-description">
+        <ul style="list-style-type:square">
+          <li>
+            Look for natural boxes
+          </li>
+          <li>
+            Look for repeated styles and semantic elements
+          </li>
+          <li>
+            Write your HTML
+          </li>
+          <li>
+            Apply styles (from biggest to smallest elements)
+          </li>
+          <li>
+            Fix things
+          </li>
+        </ul> 
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
+
+
+
